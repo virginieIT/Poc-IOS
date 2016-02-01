@@ -15,6 +15,7 @@
 		ECAFAECE1C5F741200193B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAFAECC1C5F741200193B77 /* LaunchScreen.storyboard */; };
 		ECAFAED91C5F741200193B77 /* Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAFAED81C5F741200193B77 /* Test1Tests.m */; };
 		ECAFAEE41C5F741200193B77 /* Test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAFAEE31C5F741200193B77 /* Test1UITests.m */; };
+		ECAFAEF31C5FB73C00193B77 /* Coms in Resources */ = {isa = PBXBuildFile; fileRef = ECAFAEF21C5FB73C00193B77 /* Coms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ECAFAEDF1C5F741200193B77 /* Test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFAEE31C5F741200193B77 /* Test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1UITests.m; sourceTree = "<group>"; };
 		ECAFAEE51C5F741200193B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAFAEF21C5FB73C00193B77 /* Coms */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Coms; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		ECAFAEBD1C5F741200193B77 /* Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				ECAFAEF11C5FB64000193B77 /* Externals */,
 				ECAFAEC11C5F741200193B77 /* AppDelegate.h */,
 				ECAFAEC21C5F741200193B77 /* AppDelegate.m */,
 				ECAFAEC41C5F741200193B77 /* ViewController.h */,
@@ -138,6 +141,14 @@
 				ECAFAEE51C5F741200193B77 /* Info.plist */,
 			);
 			path = Test1UITests;
+			sourceTree = "<group>";
+		};
+		ECAFAEF11C5FB64000193B77 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFAEF21C5FB73C00193B77 /* Coms */,
+			);
+			path = Externals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 			files = (
 				ECAFAECE1C5F741200193B77 /* LaunchScreen.storyboard in Resources */,
 				ECAFAECB1C5F741200193B77 /* Assets.xcassets in Resources */,
+				ECAFAEF31C5FB73C00193B77 /* Coms in Resources */,
 				ECAFAEC91C5F741200193B77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

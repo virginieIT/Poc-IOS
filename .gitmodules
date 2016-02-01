@@ -1,0 +1,3 @@
+[submodule "Test1/Externals/Coms"]
+	path = Test1/Externals/Coms
+	url = https://github.com/virginieIT/Coms.git
